@@ -47,13 +47,13 @@ const Manager = () => {
     const showPassword = () => {
         alert("show the password");
         passwordRef.current.type = "text"
-        if (ref.current.src.includes("/src/assets/icons/eyecross.svg")) {
-            ref.current.src = "/src/assets/icons/eye.svg"
+        if (ref.current.src.includes("/icons/eyecross.svg")) {
+            ref.current.src = "/icons/eye.svg"
             passwordRef.current.type = "password"
         }
         else {
             passwordRef.current.type = "text"
-            ref.current.src = "/src/assets/icons/eyecross.svg"
+            ref.current.src = "/icons/eyecross.svg"
         }
     }
 
@@ -162,7 +162,7 @@ const Manager = () => {
                     </div>
                     <button onClick={savePassword} className=' flex justify-center items-center gap-2 bg-purple-400 hover:bg-purple-300 rounded-full px-8 py-2 w-fit border-2 border-purple-700'>
                     { /// add pic
-                         <img src="/src/assets/icons/add.gif" alt="add icon" height='25px' width='25px'></img>
+                         <img src="/icons/add.gif" alt="add icon" height='25px' width='25px'></img>
                        }
                         Save </button>
                 </div>

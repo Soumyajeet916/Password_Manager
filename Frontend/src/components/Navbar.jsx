@@ -12,7 +12,7 @@ const Navbar = () => {
 
          <a href="https://github.com/Soumyajeet916/Password_Manager">
          <button className='text-white bg-purple-200 my-5 rounded-md flex justify-between items-center' >
-                        <img className=' p-1 w-10' src='/src/assets/icons/github.gif' alt='github'/>
+                        <img className=' p-1 w-10' src='/icons/github.gif' alt='github'/>
                         <span className="font-bold px-2 text-black">Github</span>
                     </button></a>
       </div>
